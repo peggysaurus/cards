@@ -18,6 +18,7 @@ public class GameGUI extends Application {
         bp.setCenter(getCenter());
         Scene scene = new Scene(bp,500,500);
         primaryStage.setScene(scene);
+        primaryStage.show();
     }
 
     private GridPane getCenter(){
